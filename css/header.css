@@ -1,0 +1,31 @@
+.status-bar {
+  background-color: #ff6600;
+  color: black;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 4px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.status-bar__infront {
+  display: flex;
+}
+
+.status-bar__infront i {
+  color: white;
+  padding-right: 6px;
+}
+
+.status-bar__infront .status-bar__homeBtn {
+  font-weight: 700;
+}
+
+.status-bar__infront .status-bar__menu {
+  padding-left: 10px;
+}
+
+.status-bar .login-btn {
+  margin-right: 4px;
+}

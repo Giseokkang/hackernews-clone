@@ -1,0 +1,59 @@
+main {
+  background-color: #f6f6ef;
+  color: black;
+  height: 1200px;
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+}
+
+main .list {
+  padding: 10px 3px;
+  padding-bottom: 0px;
+  display: flex;
+}
+
+.list .list__rank,
+.list .list__address,
+.listInfo {
+  color: #b8b8b8;
+}
+.list .list__address {
+  padding: 4px 3px;
+}
+.listInfo {
+}
+
+.list .list__address,
+.listInfo {
+  font-size: 11px;
+}
+
+.listInfo {
+  padding-left: 40px;
+}
+
+.listInfo a {
+  color: #b8b8b8;
+}
+
+.list .list__address:hover {
+  text-decoration: underline;
+}
+
+.listInfo a:hover {
+  text-decoration: underline;
+}
+
+.list i {
+  padding: 3px 3px;
+  color: #b8b8b8;
+}
+
+.more-btn {
+  position: absolute;
+  bottom: 100px;
+  left: 35px;
+  font-size: 14px;
+  color: #b8b8b8;
+}

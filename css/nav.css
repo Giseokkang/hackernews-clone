@@ -1,0 +1,21 @@
+nav {
+  position: absolute;
+  bottom: 10px;
+  border-top: 2px solid #ff6600;
+  padding: 17px 20px 5px 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.navLinks {
+  font-size: 12px;
+}
+
+.navLinks .navLinks__btn {
+  padding: 20px 5px;
+}
+
+.navSearch {
+  margin: 16px 0px 5px 0px;
+  color: #b8b8b8;
+}
